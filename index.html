@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/stl5onc.css" />
+    <script
+      src="https://kit.fontawesome.com/c77f7777e7.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Just Budget Form</title>
+  </head>
+  <body>
+    <section class="my-4">
+      <div class="container">
+        <header class="mb-3">
+          <div class="d-flex align-center g-2">
+            <img src="img/logo.png" alt="" style="width: 3rem" />
+            <h1 class="color-blue">Just Budget</h1>
+          </div>
+          <div>
+            <h2 class="color-blue">Updated Details Required</h2>
+            <p class="jbDetails">
+              PO Box 5489, Chullora NSW 2190, E:creditors@justbudget.com.au,
+              T:1300 795 775
+            </p>
+          </div>
+        </header>
+        <div class="d-grid col2 g-2">
+          <div
+            class="p3 rounded text-white shadow"
+            style="background-color: #09365b"
+          >
+            <h3 class="mb-2">What this is about</h3>
+            <p class="name"></p>
+          </div>
+          <div
+            class="p3 rounded text-white shadow"
+            style="background-color: #00d1db"
+          >
+            <h3 class="mb-2">What we require</h3>
+            <p class="mb-2">
+              It is very important we receive this information within the next 7
+              days so we can ensure the payment arrangement with your creditors
+              will be maintained. If this information is not provided, the
+              payment plan is at risk of being terminated by your creditors
+            </p>
+            <p class="text-white">
+              If you’ve got 3-5 minutes free, or there is anything that you do
+              not feel comfortable submiting over this form, feel free to give
+              us a call on 1300 795 775. Otherwise, please respond to the
+              following questions:
+            </p>
+          </div>
+        </div>
+        <h3 class="my-2">Finances</h3>
+        <form action="" class="d-grid col2 g-3" id="form1"></form>
+        <h3 class="my-2">Circumstances</h3>
+        <form action="" class="d-grid col2 g-3" id="form2"></form>
+        <h3 class="mt-2">
+          The following is a paragraph generated for you
+        </h3>
+        <p>Please feel free to edit or add additional information as you see fit</p>
+        <textarea class="generateTextHere my-1"></textarea>
+        <h3 class="">Bank Statements</h3>
+        <p class="mb-1">Please provide your bank statements below:</p>
+        <div
+          class="illion border d-flex justify-center align-center my-1 rounded"
+          style="height: 30rem"
+        >
+          <h2>Illion IFrame here</h2>
+        </div>
+        <h3 class="mt-2">Pay slips</h3>
+        <p class="mb-1">
+          Please attach two of your most recent pay slips below:
+        </p>
+        <div class="dropZone border2 rounded my-1">
+          <div
+            class="d-flex flexY justify-center align-center textContent text-center"
+          >
+            <i class="fa-solid fa-file-image"></i>
+            <p>Drag & Drop</p>
+            <p>or</p>
+            <p>Click <span class="text-turqoise">here</span> to browse</p>
+          </div>
+          <div class="files none"></div>
+          <input type="file" name="myFile" class="input none" multiple />
+        </div>
+        <p class='mt-1 none paySlipsAlert' style="font-size: 1rem; color: var(--jb-red);">Please attach Pay Slips above</p>
+        <h3
+          class="d-flex align-center justify-center text-white rounded submit my-3"
+        >
+          Submit
+        </h3>
+      </div>
+    </section>
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
